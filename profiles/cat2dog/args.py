@@ -1,0 +1,19 @@
+import argparse
+argsall = argparse.Namespace(
+    testdata_path = 'data/afhq/val/cat',
+    ckpt = 'pretrained_model/ddpm_dog_64x64.pt',
+    diepath = 'pretrained_model/die_cat_64x64.pt',
+    config_path = 'profiles/cat2dog/cat2dog.yml',
+    t = 500,
+    ls = 150.0,
+    li = 0.25,
+    s1 = 'cosine',
+    s2 = 'neg_l2',
+    phase = 'test',
+    root = 'runs/',
+    sample_step = 5,
+    travel_step = 2,
+    batch_size = 20,
+    diffusionmodel = 'DDPM',
+    down_N = 32,
+    seed = 1234)
