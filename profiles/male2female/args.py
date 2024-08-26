@@ -1,0 +1,19 @@
+import argparse
+argsall = argparse.Namespace(
+    testdata_path='data/celeba_hq/val/male',
+    ckpt = 'pretrained_model/ddpm_female_64x64.pt',
+    diepath = 'pretrained_model/die_male_64x64.pt',
+    config_path = 'profiles/male2female/male2female.yml',
+    t = 500,
+    ls = 500.0,
+    li = 0.0,
+    s1 = 'cosine',
+    s2 = 'neg_l2',
+    phase = 'test',
+    root = 'runs/',
+    sample_step = 5,
+    travel_step = 2,
+    batch_size = 20,
+    diffusionmodel = 'DDPM',
+    down_N = 32,
+    seed = 1234)
