@@ -26,4 +26,4 @@ If you find this repository helpful, please cite as:
     publisher={Springer}
 }
 ```
-This implementation is based on [EGSDE](https://github.com/ML-GSAI/EGSDE/tree/master) and [latent-diffusion]().
+This implementation is based on [EGSDE](https://github.com/ML-GSAI/EGSDE/tree/master) and [latent-diffusion](https://github.com/CompVis/latent-diffusion).
