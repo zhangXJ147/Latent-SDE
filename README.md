@@ -8,7 +8,6 @@ All used pretrained models can be downloaded from here. Please put them in `pret
     $ python run_Latent_SDE.py
 # Evaluation
     $ python run_score.py
-    $ python run_score.py
 # Training Domain-specific Extractors
     $ python run_train_dse.py
 # Training Domain-independent Extractors
