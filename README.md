@@ -15,13 +15,15 @@ All used pretrained models can be downloaded from here. Please put them in `pret
 # Re-training Score-based Diffusion Model
 The code for re-training score-based diffusion model is available at [ddpm]( https://github.com/zoubohao/DenoisingDiffusionProbabilityModel-ddpm-).
 # References
-If you find this repository helpful, please cite as:  
-        @article{zhang2024latent,
-        title={Latent-SDE: guiding stochastic differential equations in latent space for unpaired image-to-image translation},
-        author={Zhang, Xianjie and Li, Min and He, Yujie and Gou, Yao and Zhang, Yusen},
-        journal={Complex \& Intelligent Systems},
-        pages={1--11},
-        year={2024},
-        publisher={Springer}
-        }  
+If you find this repository helpful, please cite as:
+```
+@article{zhang2024latent,
+    title={Latent-SDE: guiding stochastic differential equations in latent space for unpaired image-to-image translation},
+    author={Zhang, Xianjie and Li, Min and He, Yujie and Gou, Yao and Zhang, Yusen},
+    journal={Complex \& Intelligent Systems},
+    pages={1--11},
+    year={2024},
+    publisher={Springer}
+}
+```
 This implementation is based on [EGSDE](https://github.com/ML-GSAI/EGSDE/tree/master).
