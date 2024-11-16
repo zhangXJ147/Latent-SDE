@@ -13,7 +13,7 @@ All used pretrained models can be downloaded from [here](https://pan.baidu.com/s
 ## Training Domain-independent Extractors
     $ python run_train_die.py
 ## Re-training Score-based Diffusion Model
-First, please replace Diffusion/Model.py in [Ddpm]( https://github.com/zoubohao/DenoisingDiffusionProbabilityModel-ddpm-) with model/ddpm.py in Latent-SDE. Second, please create code that combines the encoder E of VQGAN with GaussianDiffusionTrainer in Ddpm/Diffusion/Difussion.py. Finally, please use Main.py in Ddpm for training. Thanks.
+Firstly, please replace Diffusion/Model.py in [Ddpm]( https://github.com/zoubohao/DenoisingDiffusionProbabilityModel-ddpm-) with model/ddpm.py in Latent-SDE. Secondly, please create code that combines the encoder E of VQGAN with GaussianDiffusionTrainer in Ddpm/Diffusion/Difussion.py. Finally, please use Main.py in Ddpm for training. Thanks.
 ## References
 If you find this repository helpful, please cite as:
 ```
