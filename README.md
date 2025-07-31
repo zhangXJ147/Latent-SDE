@@ -21,7 +21,8 @@ If you find this repository helpful, please cite as:
     title={Latent-SDE: guiding stochastic differential equations in latent space for unpaired image-to-image translation},
     author={Zhang, Xianjie and Li, Min and He, Yujie and Gou, Yao and Zhang, Yusen},
     journal={Complex \& Intelligent Systems},
-    pages={1--11},
+    volume={10}
+    pages={7765–7775},
     year={2024},
     publisher={Springer}
 }
